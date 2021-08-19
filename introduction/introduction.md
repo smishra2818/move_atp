@@ -2,31 +2,28 @@
 
 ## About this Workshop
 
-This introduction covers the complete "parent" workshop. Use this text to set up the story for the workshop. Be engaging - what will the learner get from spending their time on this workshop?
+In this workshop you will move or migrate an existing application and database solution to the Oracle Cloud and Autonomous Database. You will be using many of the features of the Oracle Cloud including virtual cloud networking, security lists, route rules, gateways, and private subnets. After migrating the solution, you will enable ATP features like auto scaling to improve the performance of your application. This workshop covers key practices for moving and improving your own applications to OCI and ATP.
 
-Estimated Workshop Time: -- hours -- minutes (This estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.)
+Estimated Workshop Time: 16 hours 00 minutes (This estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.)
 
-*You may add an option video, using this format: [](youtube:YouTube video id)*
-
-  [](youtube:zNKxJjkq0Pw)
 
 ### Objectives
 
-*List objectives for the workshop*
-
 In this workshop, you will learn how to:
-* Provision
-* Setup
-* Load
-* Query
+* Migrate on premise application to OCI.
+* Provision ATP on OCI.
+* Enable auto scaling feature in ATP to get better performance.
+* practices for moving and improving your own applications to OCI.
 
 ### Prerequisites (Optional)
 
-*List the prerequisites for this lab using the format below. Fill in whatever knowledge, accounts, etc. is needed to complete the lab. **Do NOT list** each previous lab as a prerequisite.*
-
 This lab assumes you have:
-* An Oracle account
-* All previous labs successfully completed
+
+* Account access to Oracle Cloud Infrastructure
+* You will need an account that allows you to create a VCN, up to two cores of compute, and up to three cores of   Autonomous Database. If this is an instructor-led workshop an account will be provided to you.
+* Knowledge of network concepts
+* Knowledge of database concepts
+
 
 *This is the "fold" - below items are collapsed by default*
 
@@ -40,6 +37,6 @@ In general, the Introduction does not have Steps.
 * [URL text 2](http://docs.oracle.com)
 
 ## Acknowledgements
-* **Author** - <Name, Title, Group>
-* **Contributors** -  <Name, Group> -- optional
-* **Last Updated By/Date** - <Name, Month Year>
+* **Author** - Milton Wan, Satyabrata Mishra
+* **Contributors** -  Rajeev Rumale
+* **Last Updated By/Date** - Satyabrata Mishra, August 2021
