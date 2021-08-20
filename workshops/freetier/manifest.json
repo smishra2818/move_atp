@@ -18,7 +18,7 @@
         {
             "title": "Lab 01: Login to Oracle Cloud",
             "description": "Login to Oracle Cloud",
-            "filename": "../lab01/content.md"
+            "filename": "../../lab01/lab01.md"
         },
         {
             "title": "Lab 2: Setup the Environment",
