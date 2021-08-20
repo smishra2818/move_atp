@@ -21,8 +21,9 @@
             "filename": "../../lab01/lab01.md"
         },
         {
-            "title": "Lab 2: Setup the Environment",
-            "filename": "../../setup/setup.md"
+            "title": "Lab 02: Generate SSH Keys",
+            "description": "Generate SSH Keys",
+            "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/generate-ssh-key/generate-ssh-keys.md"
         },
         {
             "title": "Lab 3: Load Data into an Instance",
