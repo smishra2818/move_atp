@@ -46,6 +46,11 @@
             "filename": "../../lab07/lab07.md"
         },
         {
+            "title": "Lab 08: Install the Application and Migrate the Database",
+            "filename": "../../lab08/lab08.md"
+        },
+
+        {
             "title": "Need Help?",
             "description": "Solutions to Common Problems and Directions for Receiving Live Help",
             "filename":"https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/need-help/need-help-freetier.md"
