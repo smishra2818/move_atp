@@ -8,7 +8,7 @@ Estimated Lab Time: 1 hour
 
 ### Objectives
 
-create the computes.
+* create the computes.
 
 ## Requirements ##
 

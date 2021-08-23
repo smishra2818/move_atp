@@ -12,7 +12,8 @@ Estimated Lab Time: 15 minutes
 
 ### Objectives
 
-install the application and migrate database.
+* install the application on App Server and migrate database to ATP.
+
 
 ### Prerequisites
 

@@ -8,7 +8,9 @@ The Swingbench workload on the App Server runs against ATP through the Service G
 
 ### Objectives
 
-Run the Application Workload.
+* Simulate a production workload using Swingbench load generator.
+* Monitor and Manage your autonomous database performance using Performance Hub.
+* Validate the Auto scaling feature.
 
 ### Prerequisites
 

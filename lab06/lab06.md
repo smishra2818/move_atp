@@ -10,7 +10,7 @@ Estimated Lab Time: 30 minutes
 
 ### Objectives
 
-Create Autonomous Database over Oracle Cloud.
+Create Autonomous Database on Oracle Cloud.
 
 ## Requirements ##
 

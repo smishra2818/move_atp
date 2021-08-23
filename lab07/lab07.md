@@ -8,7 +8,7 @@ Estimated Lab Time: 30 minutes
 
 ### Objectives
 
-* copy ssh key and wallet
+* copy ssh key and wallet to application for ATP connectivity
 
 ### Prerequisites
 
