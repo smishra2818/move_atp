@@ -30,8 +30,16 @@
             "filename": "../../lab03/lab03.md"
         },
         {
-            "title": "Lab 4: Create the Virtual Cloud Network",
+            "title": "Lab 04: Create the Virtual Cloud Network",
             "filename": "../../lab04/lab04.md"
+        },
+        {
+            "title": "Lab 05: Create the Computes",
+            "filename": "../../lab05/lab05.md"
+        },
+        {
+            "title": "Lab 06: Create Autonomous Database",
+            "filename": "../../lab06/lab06.md"
         },
         {
             "title": "Need Help?",
