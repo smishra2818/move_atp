@@ -4,7 +4,7 @@
 
 Oracle Cloud computes come in many shapes.  They can be virtual machines or bare metal hardware.  In this lab we will create two virtual machines.  One will be a bastion server, sometimes called a "jump server", and it will be created in your public subnet, and the second will be the application server and it will created in your private subnet.
 
-Estimated Lab Time: 1 hour
+Estimated Lab Time: 45 minutes
 
 ### Objectives
 

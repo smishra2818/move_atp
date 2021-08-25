@@ -13,7 +13,7 @@ In this workshop, you will learn how to:
 * Migrate on premise application to OCI.
 * Provision ATP on OCI.
 * Enable auto scaling feature in ATP to get better performance.
-* practices for moving and improving your own applications to OCI.
+* Practices for moving and improving your own applications to OCI.
 
 ### Prerequisites (Optional)
 
@@ -23,9 +23,6 @@ This lab assumes you have:
 * You will need an account that allows you to create a VCN, up to two cores of compute, and up to three cores of   Autonomous Database. If this is an instructor-led workshop an account will be provided to you.
 * Knowledge of network concepts
 * Knowledge of database concepts
-
-
-*This is the "fold" - below items are collapsed by default*
 
 In general, the Introduction does not have Steps.
 

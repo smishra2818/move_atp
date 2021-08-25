@@ -6,7 +6,7 @@ In this lab you will create a Virtual Cloud Network (VCN) and related network re
 
 ![](./images/lab-architecture-diagram.png)
 
-Estimated Lab Time: 15 minutes
+Estimated Lab Time: 10 minutes
 
 ### Objectives
 
