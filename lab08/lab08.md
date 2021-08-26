@@ -8,7 +8,7 @@ The sample application we will use is Swingbench with an associated database to 
 
 ![](./images/move-improve-flow-diagram.png)
 
-Estimated Lab Time: 15 minutes
+Estimated Lab Time: 2 hours
 
 ### Objectives
 
@@ -158,7 +158,9 @@ $ cd /home/opc
 $ sudo vi sqlnet.ora
 ```
 
-3. Set the WALLET_LOCATION parameter to point to the wallet directory containing the cwallet.sso file as shown by the example below<img src="./images/vi-sqlnet.png" style="zoom: 67%;" />
+3. Set the WALLET_LOCATION parameter to point to the wallet directory containing the cwallet.sso file as shown by the example below
+
+![](./images/vi-sqlnet.png)
 
 4. Exit and save the file                               
 
