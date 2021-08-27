@@ -8,7 +8,7 @@ A Block Volume can be detached from an instance and moved to a different instanc
 
 A Custom Image can be created from an existing Boot Volume. You can then use this custom image to launch additional instances. Ie: for test, development, or production environments.
 
-Estimated Lab Time: 15 minutes
+Estimated Lab Time: 1 hour 30 minutes
 
 ### Objectives
 
@@ -173,9 +173,11 @@ Let's now terminate the newly created compute instance from the custom image, bu
 
   ![](./images/terminate-instance.png)
 
- 3. Go to Compute Boot Volumes and your volume is still available to be attached to any new instance
+ 3. Once the instance is terminated the boot volume can be found in storage ->block storage-> boot volume and your volume is still available to be attached to any new instance
 
    ![](./images/boot-volume.png)
+
+   ![](./images/boot-volume1.png)
 
 
     ## Step 5: Export the Custom Image to the Object Storage

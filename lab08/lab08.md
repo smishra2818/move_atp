@@ -184,11 +184,10 @@ There are a number of ways to move or migrate your existing on premise Oracle da
 
 The .dmp file has been copied to the Object Storage.  You will use this in a later step.
 
-Melbourne, Australia: https://objectstorage.ap-melbourne-1.oraclecloud.com/p/B5BwCFeG3Z1Bx_vlpa1ks5GZx-KouCVf3q3fv_hAzqRKPoSBiivWsECMBbPHsw06/n/oraclepartnersas/b/Lab-Material/o/soedump18C_1G.dmp
+AShburn, US East:
+https://objectstorage.us-ashburn-1.oraclecloud.com/p/2BWjXdKY935En1yDxUpP9_8tdgkfBrGCIg0jdPlCbLDRYvsG1mcTpY--nEeHw_dy/n/c4u04/b/labfiles/o/soedump18C_1G.dmp
 
 Note: You can use the Data Pump procedure for your own database and migration projects.
-
-
 
 ## Step 4: Set Credential for ATP to access the Object Store
 
@@ -245,7 +244,7 @@ Execute the impdb statement below from your compute with Instant Client software
 4. Set parallel import to 2 since we can use 2 the OCPU cores in ATP.
 
 ```
-$ impdp admin/<password>@<My_ATP_high> directory=data_pump_dir credential=<credential name> schemas=soe dumpfile=https://objectstorage.ap-melbourne-1.oraclecloud.com/p/B5BwCFeG3Z1Bx_vlpa1ks5GZx-KouCVf3q3fv_hAzqRKPoSBiivWsECMBbPHsw06/n/oraclepartnersas/b/Lab-Material/o/soedump18C_1G.dmp logfile=import.log parallel=2
+$ impdp admin/<password>@<My_ATP_high> directory=data_pump_dir credential=<credential name> schemas=soe dumpfile=https://objectstorage.us-ashburn-1.oraclecloud.com/p/2BWjXdKY935En1yDxUpP9_8tdgkfBrGCIg0jdPlCbLDRYvsG1mcTpY--nEeHw_dy/n/c4u04/b/labfiles/o/soedump18C_1G.dmp logfile=import.log parallel=2
 ```
 
 It should take about 15-25 minutes to import.  If successful, you will see a similar output like the following:
