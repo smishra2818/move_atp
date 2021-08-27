@@ -6,6 +6,8 @@
 
 The Swingbench workload on the App Server runs against ATP through the Service Gateway. Throughout the run, CPU is saturated at 100% utilization, so it’s a good test to scale the cores. First let’s open SQL Developer tool to check the core count.
 
+Estimated Lab Time: 2 hours
+
 ### Objectives
 
 * Simulate a production workload using Swingbench load generator.
