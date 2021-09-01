@@ -19,7 +19,7 @@ Estimated Lab Time: 40 minutes
 * WinSCP or equivalent
 * PuTTY or equivalent
 
-## Step 1: Create the Bastion Compute ##
+## Task 1: Create the Bastion Compute ##
 
 ![](./images/bastion-diagram.png)
 
@@ -93,7 +93,7 @@ Your running compute instance will have both the Public and Private IP address c
 ![](./images/comput-detail.png)
 
 
-## Step 2: Connect to your Bastion Compute ##
+## Task 2: Connect to your Bastion Compute ##
 
 Use PuTTy or SSH to connect to your bastion compute. Connect with the compute public IP address and your client side SSH private key provided by the instructor or use your own SSH key. You can use PuTTyGen or equivalent to create your own SSH public and private keys.  opc is the default admin user for the compute
 
@@ -123,7 +123,7 @@ Oracle computes are provisioned with the default **opc** user with sudo privileg
 
  ![](./images/putty-sessions.png)
 
-## Step 3: Create your Application Server
+## Task 3: Create your Application Server
 
  ![](./images/app-server-diagram.png)
 
@@ -163,7 +163,7 @@ Once your compute App Server instance is running, view other details. Note the c
 
 Now we need to turn off VNIC source/destination check to allow packets to be forwarded.  Otherwise if the packet is not for the VNIC it will be dropped.
 
-## Step 4: Turn off VNIC source/destination check
+## Task 4: Turn off VNIC source/destination check
 
 ​	1. View the compute App Server instance details
 
@@ -183,7 +183,7 @@ Now we need to turn off VNIC source/destination check to allow packets to be for
 
 
 
-## Step 5: Check Security List for Each Subnet
+## Task 5: Check Security List for Each Subnet
 
 Let's see how your security list are set up to ensure they allow the right traffic.
 

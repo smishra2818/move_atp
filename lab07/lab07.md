@@ -18,7 +18,7 @@ Estimated Lab Time: 30 minute
 - Wallet
 - SSH keys
 
-## Step 1: Copy the ATP Wallet ##
+## Task 1: Copy the ATP Wallet ##
 
 1. Locate the ATP Wallet on your laptop. You downloaded it when you created ATP.
 2. Connect WinSCP or equivalent to the Bastion. You will need the public IP address and the private key for the Bastion. The public IP is in your compute details. Navigate there to get it. The user is **opc,** no password**.**
@@ -49,7 +49,7 @@ Estimated Lab Time: 30 minute
 
 ![](./images/winscp-4.PNG)
 
-## Step 2: Copy the ATP Wallet to the App Server ##
+## Task 2: Copy the ATP Wallet to the App Server ##
 
 ![](./images/copy-wallet-diagram.PNG)
 
