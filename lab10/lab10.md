@@ -6,7 +6,7 @@ Volumes are important to the move and improve process to OCI. In this section we
 
 A Block Volume can be detached from an instance and moved to a different instance without the loss of data. This data persistence enables you to migrate data between instances and ensures that your data is safely stored, even when it is not connected to an instance. Any data remains intact until you reformat or delete the volume.
 
-A Custom Image can be created from an existing Boot Volume. You can then use this custom image to launch additional instances. Ie: for test, development, or production environments.
+A Custom Image can be created from an existing Boot Volume. You can then use this custom image to launch additional instances. i.e. for test, development, or production environments.
 
 Estimated Time: 1 hour 30 minutes
 
@@ -66,17 +66,17 @@ Your new instance will be created in a few minutes with the App Server and Swing
 We just did a lift and shift to another compute instance with the same Swingbench workload software!
 
 ```
-$ ls
+$ <copy>ls</copy>
 
-$ ping 8.8.8.8
+$ <copy>ping 8.8.8.8</copy>
 
-$ cd swingbench/bin
+$ <copy>cd swingbench/bin</copy>
 ```
 
 Replace the script below with your wallet and service name.
 
 ```
-$./charbench -c ../configs/SOE_Server_Side_V2.xml \
+$<copy>./charbench -c ../configs/SOE_Server_Side_V2.xml \
 -cf ~/Wallet_ATPLABTEST/Wallet_ATPLABTEST.zip \
 -cs atplabtest_tp \
 -u soe \
@@ -88,7 +88,7 @@ $./charbench -c ../configs/SOE_Server_Side_V2.xml \
 -max 0 \
 -uc 128 \
 -di SQ,WQ,WA \
--rt 0:30.00
+-rt 0:30.00</copy>
 ```
 
 Your workload should run as before with your new compute instance.
@@ -138,15 +138,15 @@ The Clone will be created in 15-20 minutes.  It will have a new Wallet.  Notice 
 *  Troubleshooting: Test the connection with SQLPlus.
 
   ```
-  $ export PATH=/usr/lib/oracle/18.5/client64/bin:$PATH
+  $ <copy>export PATH=/usr/lib/oracle/18.5/client64/bin:$PATH</copy>
 
-  $ export LD_LIBRARY_PATH=/usr/lib/oracle/18.5/client64/lib
+  $ <copy>export LD_LIBRARY_PATH=/usr/lib/oracle/18.5/client64/lib</copy>
 
-  $ sqlplus admin/<password>@<service_tp>
+  $ <copy>sqlplus admin/<password>@<service_tp></copy>
   ```
 
 ```
-$./charbench -c ../configs/SOE_Server_Side_V2.xml \
+$<copy>./charbench -c ../configs/SOE_Server_Side_V2.xml \
 -cf ~/Wallet_ATPLABTEST/Wallet_ATPLABTEST.zip \
 -cs atplabtest_tp \
 -u soe \
@@ -158,7 +158,7 @@ $./charbench -c ../configs/SOE_Server_Side_V2.xml \
 -max 0 \
 -uc 128 \
 -di SQ,WQ,WA \
--rt 0:30.00
+-rt 0:30.00</copy>
 ```
 
 Your workload will now run against the cloned ATP.   
