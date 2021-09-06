@@ -200,7 +200,7 @@ Once the image is available in the Object Store, you can download it, or even re
 
 
 
-## (Optional) Task 6: Importing your own Image
+## Task 6: Importing your own Image (Optional)
 
 To begin your move and improve projects from on premise to the Oracle Cloud you can import images to the Object Store, and then attach them to compute instances in the cloud. Your images must first conform to the following virtual machine disk formats: VMDK, QCOW2 (KVM), or OCI. The image must have been uploaded from your on premise to the Object Store for the import.
 
