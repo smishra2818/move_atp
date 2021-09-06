@@ -374,6 +374,8 @@ END;
 
 Now that we have both the application installed on the App Server and the database imported to ATP we are ready to run the workload.
 
+You may now proceed to the next lab.
+
 
 
 ## Acknowledgements ##

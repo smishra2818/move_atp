@@ -40,6 +40,8 @@ The following is intended to outline our general product direction. It is intend
 
 ![](./images/menu-and-region-selection.png)
 
+You may now proceed to the next lab.
+
 
 
 ## Acknowledgements ##

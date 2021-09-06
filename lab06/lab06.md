@@ -180,6 +180,8 @@ AND sales.cust_id=customers.cust_id
 You have successfully provisioned and connected SQL Developer to Autonomous Database (ATP) and validated the connection.
               ![](./images/atp-diagram.png)
 
+You may now proceed to the next lab.
+
 
 
 ## Acknowledgements ##

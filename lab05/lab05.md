@@ -216,6 +216,8 @@ Let's see how your security list are set up to ensure they allow the right traff
 
 ![](./images/security-list-egress-private-subnet.png)
 
+You may now proceed to the next lab.
+
 ## Acknowledgements ##
 
 - **Author** - Milton Wan, Satyabrata Mishra Database Product Management, August 2021

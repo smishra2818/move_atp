@@ -113,6 +113,8 @@ Below is a diagram of what has been created by the Networking Quickstart.  All t
 
 ![](./images/lab-architecture-created.png)
 
+You may now proceed to the next lab.
+
 ## Acknowledgements ##
 
 - **Author** - Milton Wan, Satyabrata Mishra Database Product Management, April 2020

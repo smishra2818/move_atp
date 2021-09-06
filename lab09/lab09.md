@@ -260,6 +260,8 @@ What do you think of the results?
 
 By setting ATP database service, you can control the resources and the response times for different connections.  Analyze your performance activity from the ATP console.
 
+You may now proceed to the next lab.
+
 
 
 

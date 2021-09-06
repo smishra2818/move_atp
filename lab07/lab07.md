@@ -104,6 +104,8 @@ $ ping 8.8.8.8
 
 ![](./images/ping.PNG)
 
+You may now proceed to the next lab.
+
 ## Acknowledgements ##
 
 - **Author** - Milton Wan, Satyabrata Mishra Database Product Management, August 2021
