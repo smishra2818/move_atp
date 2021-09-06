@@ -6,7 +6,7 @@ Oracle Autonomous Transaction Processing (ATP) is a fully managed Oracle databas
 
 The following lab guide shows how to provision and securely connect to ATP.
 
-Estimated Lab Time: 1 hour
+Estimated Time: 1 hour
 
 ### Objectives
 

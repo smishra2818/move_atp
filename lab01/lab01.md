@@ -4,7 +4,7 @@
 
 In this lab you will connect to the Oracle Cloud and select your region to work in.
 
-Estimated Lab Time: 5 minutes
+Estimated Time: 5 minutes
 
 ### Objectives
 

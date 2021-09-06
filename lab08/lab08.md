@@ -8,7 +8,7 @@ The sample application we will use is Swingbench with an associated database to 
 
 ![](./images/move-improve-flow-diagram.png)
 
-Estimated Lab Time: 2 hours
+Estimated Time: 2 hours
 
 ### Objectives
 

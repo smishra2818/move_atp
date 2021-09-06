@@ -8,7 +8,7 @@ A Block Volume can be detached from an instance and moved to a different instanc
 
 A Custom Image can be created from an existing Boot Volume. You can then use this custom image to launch additional instances. Ie: for test, development, or production environments.
 
-Estimated Lab Time: 1 hour 30 minutes
+Estimated Time: 1 hour 30 minutes
 
 ### Objectives
 
