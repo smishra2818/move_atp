@@ -21,7 +21,8 @@ Estimated Time: 30 minute
 ## Task 1: Copy the ATP Wallet ##
 
 1. Locate the ATP Wallet on your laptop. You downloaded it when you created ATP.
-2. Connect WinSCP or equivalent to the Bastion. You will need the public IP address and the private key for the Bastion. The public IP is in your compute details. Navigate there to get it. The user is **opc,** no password**.**
+2. Connect WinSCP or equivalent to the Bastion. You will need the public IP address and the private
+   key for the  Bastion. The public IP is in your compute details. Navigate there to get it. The user is **opc,** no password**.**
 3. Use WinSCP or equivalent to copy the ATP wallet to the Bastion. You can just put it on the Bastion compute home directory.
 4. Copy also the SSH private key for the App Server to the Bastion. Be sure to copy the key for Linux, not the .ppk, because your App Server is a Linux compute.
 
