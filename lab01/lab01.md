@@ -29,16 +29,16 @@ The following is intended to outline our general product direction. It is intend
 4. Click Sign in
 
 
-![](./images/cloud-sign-in.png)
+ ![](./images/cloud-sign-in.png)
 
-![](./images/username-signin.png)
+ ![](./images/username-signin.png)
 
 
 ​	5. You should see the Quick Actions dashboard
 
 ​	6. Note the region selection and the menu of cloud services on the upper left corner
 
-![](./images/menu-and-region-selection.png)
+  ![](./images/menu-and-region-selection.png)
 
 You may now proceed to the next lab.
 

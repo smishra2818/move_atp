@@ -13,41 +13,41 @@
             "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
         },
         {
-            "title": "Lab 01: Login to Oracle Cloud",
+            "title": "Lab 1: Login to Oracle Cloud",
             "description": "Login to Oracle Cloud",
             "filename": "../../lab01/lab01.md"
         },
         {
-            "title": "Lab 02: Generate SSH Keys",
+            "title": "Lab 2: Generate SSH Keys",
             "description": "Generate SSH Keys",
             "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/generate-ssh-key/generate-ssh-keys.md"
         },
         {
-            "title": "Lab 03: Generate the Auth Token",
+            "title": "Lab 3: Generate the Auth Token",
             "filename": "../../lab03/lab03.md"
         },
         {
-            "title": "Lab 04: Create the Virtual Cloud Network",
+            "title": "Lab 4: Create the Virtual Cloud Network",
             "filename": "../../lab04/lab04.md"
         },
         {
-            "title": "Lab 05: Create the Computes",
+            "title": "Lab 5: Create the Computes",
             "filename": "../../lab05/lab05.md"
         },
         {
-            "title": "Lab 06: Create Autonomous Database",
+            "title": "Lab 6: Create Autonomous Database",
             "filename": "../../lab06/lab06.md"
         },
         {
-            "title": "Lab 07: Copy SSH Key and Wallet",
+            "title": "Lab 7: Copy SSH Key and Wallet",
             "filename": "../../lab07/lab07.md"
         },
         {
-            "title": "Lab 08: Install the Application and Migrate the Database",
+            "title": "Lab 8: Install the Application and Migrate the Database",
             "filename": "../../lab08/lab08.md"
         },
         {
-            "title": "Lab 09: Run the Application Workload",
+            "title": "Lab 9: Run the Application Workload",
             "filename": "../../lab09/lab09.md"
         },
         {

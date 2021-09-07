@@ -31,15 +31,15 @@ We will create our first compute as a Bastion host on the public subnet. A Basti
 
 ​	3. Click Create Instance
 
-![](./images/menu-compute.png)
+   ![](./images/menu-compute.png)
 
 ​	4. Give your instance a unique name
 
 ​	5. Click Change Image and select **Oracle Cloud Developer Image** from Oracle Images
 
-![](./images/create-compute-image.png)
+  ![](./images/create-compute-image.png)
 
-![](./images/select-developer-image.png)
+  ![](./images/select-developer-image.png)
 
 
 
@@ -47,17 +47,17 @@ The Oracle Cloud Developer image has the Linux OS along with software client too
 
  6. After selecting the image, you must scroll down the screen and accept the terms and click Select Image
 
-  ![](./images/select-image.png)
+   ![](./images/select-image.png)
 
-​	7. Select Availability Domain 1 (AD1)
+​ 7. Select Availability Domain 1 (AD1)
 
-![](./images/comput-config-1.png)
+   ![](./images/compute-config-1.png)
 
 ​	8. Select Virtual Machine VM.Standard2.1
 
 ​	9. Instance Shape should be 1 Core OCPU, 15 GB Memory. You can keep this default.
 
-![](./images/comput-config-2.png)
+   ![](./images/compute-config-2.png)
 
 
 ​	10.Select your VCN Compartment and VCN you created
@@ -72,25 +72,25 @@ The Oracle Cloud Developer image has the Linux OS along with software client too
 
 ​	15. Add the SSH **public** key provided by the instructor or use your own
 
-![](./images/compute-config-3.png)
+ ![](./images/compute-config-3.png)
 
-![](./images/compute-config-4.png)
+ ![](./images/compute-config-4.png)
 
-![](./images/compute-config-5.png)
+ ![](./images/compute-config-5.png)
 
 ​	16. Create your Instance
 
 Once you click Create Instance, your instance will be in provisioning state. This will take a couple of minutes to create.
 
-![](./images/comput-provisioning-status.png)
+  ![](./images/comput-provisioning-status.png)
 
 You can see the more status by clicking on Work Request.
 
-![](./images/work-request.png)
+  ![](./images/work-request.png)
 
 Your running compute instance will have both the Public and Private IP address created. Resources inside the VCN can access Private IP addresses.
 
-![](./images/comput-detail.png)
+ ![](./images/comput-detail.png)
 
 
 ## Task 2: Connect to your Bastion Compute ##
@@ -115,13 +115,13 @@ For PuTTY:
 
 ​	4. Click Yes when prompted
 
- ![](./images/putty-3.png)
+  ![](./images/putty-3.png)
 
 Oracle computes are provisioned with the default **opc** user with sudo privileges.
 
 ​	5. Login as **opc**
 
- ![](./images/putty-sessions.png)
+ ![](./images/putty-session.png)
 
 ## Task 3: Create your Application Server
 
@@ -137,7 +137,7 @@ Oracle computes are provisioned with the default **opc** user with sudo privileg
 
 ​	6. Ensure you select your compartment and VCN. Your subnet compartment can actually be configured on another compartment from your VCN. But in this case it will be the same as your VCN.
 
-![](./images/create-app-server-2.png)
+ ![](./images/create-app-server-2.png)
 
 7. Select the **private** subnet where the App Server will be installed.  Do not select public subnet.
 
@@ -147,19 +147,19 @@ Oracle computes are provisioned with the default **opc** user with sudo privileg
 
 ​	10. Click Create
 
-![](./images/create-app-server-3.PNG)
+ ![](./images/create-app-server-3.PNG)
 
 
 
 You can see the work request and status of the compute being provisioned in the compute details and Work Requests page.
 
-![](./images/create-app-server-5.PNG)
+ ![](./images/create-app-server-5.PNG)
 
 
 
 Once your compute App Server instance is running, view other details. Note the compute is provisioned on the private subnet, you only get a private IP address.  There is no public IP address.  From the private subnet we have a secure App Server that will connect to ATP.
 
-![](./images/app-server-details.png)
+ ![](./images/app-server-details.png)
 
 Now we need to turn off VNIC source/destination check to allow packets to be forwarded.  Otherwise if the packet is not for the VNIC it will be dropped.
 
@@ -177,9 +177,9 @@ Now we need to turn off VNIC source/destination check to allow packets to be for
 
 ​	6. Click Save Changes or Update VNIC on earlier UI.
 
-![](./images/vnic-details.PNG)
+  ![](./images/vnic-details.png)
 
-![](./images/update-vnic.PNG)
+  ![](./images/update-vnic.png)
 
 
 
@@ -200,11 +200,11 @@ Let's see how your security list are set up to ensure they allow the right traff
 
 ​	ICMP is defaulted and is TCP/IP layer protocol for control and error messages.
 
-![](./images/vcn-details.png)
+  ![](./images/vcn-details.png)
 
-​	![](./images/ingress-rules.png)
+​	 ![](./images/ingress-rules.png)
 
-![](./images/egress-rules.png)
+  ![](./images/egress-rules.png)
 
 ​	4. Check security list for private subnet.
 
@@ -212,9 +212,9 @@ Let's see how your security list are set up to ensure they allow the right traff
 - Egress allows all protocol traffic to all destination.
 
 
-![](./images/seclist-ingress-private-subnet.png)
+  ![](./images/seclist-ingress-private-subnet.png)
 
-![](./images/security-list-egress-private-subnet.png)
+  ![](./images/security-list-egress-private-subnet.png)
 
 You may now proceed to the next lab.
 

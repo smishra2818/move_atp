@@ -1,6 +1,6 @@
 # Generate Auth Token #
 
-## introduction
+## Introduction
 
 Auth tokens are Oracle-generated token strings that you can use to authenticate with third-party APIs or to Oracle services like the Oracle Object Store. Each user created in the IAM service automatically has the ability to create, update, and delete their own auth tokens in the Console or the API.
 

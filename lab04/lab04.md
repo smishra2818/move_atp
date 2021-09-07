@@ -10,7 +10,7 @@ Estimated Time: 10 minutes
 
 ### Objectives
 
-* create virtual cloud network
+* Create virtual cloud network
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ We are taking the quick option, but there is also a custom option to create reso
 
 5. Click Start VCN Wizard
 
-![](./images/start-vcn-wizard.PNG)
+  ![](./images/start-vcn-wizard.PNG)
 
 ## Task 2: Create the Network  ##
 
@@ -76,42 +76,42 @@ We are taking the quick option, but there is also a custom option to create reso
 
 9. Click Next
 
-![](./images/vcn-configuration-info.png)
+  ![](./images/vcn-configuration-info.png)
 
-A summary is displayed.
+  A summary is displayed.
 
-You can view the default security and route rules that will be created.
+  You can view the default security and route rules that will be created.
 
-​	10. Scroll to Security List and click Show Rules
+​10.  Scroll to Security List and click Show Rules
 
-![](./images/security-rules.png)
+   ![](./images/security-rules.png)
 
-![](./images/route-rules.png)
+   ![](./images/route-rules.png)
 
 
-​	11. Click Create.
+​11. Click Create.
 
 The VCN is created instantaneously with all the default network resources.
 
-![](./images/vcn-summary-info.png)
+  ![](./images/vcn-summary-info.png)
 
 ​
 
 12. Click View Virtual Cloud Network to see the details and what has been created.
 
-![](./images/view-vcn-config.png)
+   ![](./images/view-vcn-config.png)
 
 
 
 You will see a number of resources created including public, private subnets, default security list, default route table, and the gateways.
 
-![](./images/vcn-details.png)
+   ![](./images/vcn-details.png)
 
 
 
 Below is a diagram of what has been created by the Networking Quickstart.  All these resources were created in seconds.
 
-![](./images/lab-architecture-created.png)
+    ![](./images/lab-architecture-created.png)
 
 You may now proceed to the next lab.
 
