@@ -8,7 +8,7 @@ In this lab you will create a Virtual Cloud Network (VCN) and related network re
 
 Estimated Time: 10 minutes
 
-### Objectives
+### Objective
 
 * Create virtual cloud network
 
@@ -70,7 +70,8 @@ We are taking the quick option, but there is also a custom option to create reso
 
 6. Enter the public subnet CIDR block of 10.0.0.0/24
 
-7. Enter the private subnet CIDR block of 10.0.1.0/24. Note: A private subnet is not visible to the internet and is accessible from inside the VCN only.
+7. Enter the private subnet CIDR block of 10.0.1.0/24. Note: A private subnet is not visible to the
+   internet and is accessible from inside the VCN only.
 
 8. Select use DNS hostnames
 
@@ -82,34 +83,32 @@ We are taking the quick option, but there is also a custom option to create reso
 
   You can view the default security and route rules that will be created.
 
-​10.  Scroll to Security List and click Show Rules
+10.  Scroll to Security List and click Show Rules
 
    ![](./images/security-rules.png)
 
    ![](./images/route-rules.png)
 
 
-​11. Click Create.
+11. Click Create.
 
-The VCN is created instantaneously with all the default network resources.
+    The VCN is created instantaneously with all the default network resources.
 
-  ![](./images/vcn-summary-info.png)
 
-​
-
+   ![](./images/vcn-summary-info.png)
 12. Click View Virtual Cloud Network to see the details and what has been created.
 
    ![](./images/view-vcn-config.png)
 
 
 
-You will see a number of resources created including public, private subnets, default security list, default route table, and the gateways.
+    You will see a number of resources created including public, private subnets, default security list, default route table, and the gateways.
 
-   ![](./images/vcn-details.png)
+    ![](./images/vcn-details.png)
 
 
 
-Below is a diagram of what has been created by the Networking Quickstart.  All these resources were created in seconds.
+    Below is a diagram of what has been created by the Networking Quickstart.  All these resources were created in seconds.
 
     ![](./images/lab-architecture-created.png)
 

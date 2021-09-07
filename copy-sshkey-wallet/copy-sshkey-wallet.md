@@ -6,9 +6,9 @@ Now we need to copy the ATP Wallet to our application server so it can connect t
 
 Estimated Time: 30 minute
 
-### Objectives
+### Objective
 
-* copy ssh key and wallet to application for ATP connectivity
+* Copy ssh key and wallet to application for ATP connectivity
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@ Estimated Time: 30 minute
 
    ![](./images/winscp-3.png)
 
-10. Click Yes
+10. Click **Yes**
 11. Copy both the ATP wallet and the private SSH key for the App Server to the Bastion. Be sure to copy the key for Linux, not the .ppk, because your app server is a Linux compute.
 
    ![](./images/winscp-4.PNG)
@@ -65,13 +65,13 @@ We are now going to copy the ATP Wallet to the App Server. The App Server will b
   $<copy>chmod 0700 labkey</copy>
   ```
 
-​4. Copy your ATP wallet from the Bastion to the App Server
+4. Copy your ATP wallet from the Bastion to the App Server
 
-(Replace the below commands with your SSH private key, wallet name, and private IP address of your App Server)
+   (Replace the below commands with your SSH private key, wallet name, and private IP address of your App Server)
 
-  ```
-  $<copy> scp -C -i labkey -r Wallet_ATPLABTEST.zip opc@10.0.1.2:/home/opc</copy>
-  ```
+   ```
+   $<copy> scp -C -i labkey -r Wallet_ATPLABTEST.zip opc@10.0.1.2:/home/opc</copy>
+   ```
 
  5. Type **yes** if you see the message below:
 
@@ -79,17 +79,16 @@ We are now going to copy the ATP Wallet to the App Server. The App Server will b
 
 
 
-Connect to App Server with the private key. Replace the private key and private IP address with yours.
+    Connect to App Server with the private key. Replace the private key and private IP address with yours.
 
-```
-$<copy> ssh –i labkey opc@10.0.1.2</copy>
+  ```
+  $<copy> ssh –i labkey opc@10.0.1.2</copy>
+  $ <copy>ls</copy>
+  ```
 
-$ <copy>ls</copy>
-```
+    Let’s test you can reach the internet through the NAT gateway, ping something like the Google DNS. We will need to install software from the internet through the NAT later.
 
-Let’s test you can reach the internet through the NAT gateway, ping something like the Google DNS. We will need to install software from the internet through the NAT later.
-
-From the App Server session
+    From the App Server session
 
 ```
 $ <copy>ping 8.8.8.8</copy>

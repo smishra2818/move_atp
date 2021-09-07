@@ -19,35 +19,35 @@
         },
         {
             "title": "Lab 3: Generate the Auth Token",
-            "filename": "../../lab03/lab03.md"
+            "filename": "../../generate-auth-token/generate-auth-token.md"
         },
         {
             "title": "Lab 4: Create the Virtual Cloud Network",
-            "filename": "../../lab04/lab04.md"
+            "filename": "../../create-vcn/create-vcn.md"
         },
         {
             "title": "Lab 5: Create the Computes",
-            "filename": "../../lab05/lab05.md"
+            "filename": "../../create-compute/create-compute.md"
         },
         {
             "title": "Lab 6: Create Autonomous Database",
-            "filename": "../../lab06/lab06.md"
+            "filename": "../../create-autonomous-database/create-autonomous-database.md"
         },
         {
             "title": "Lab 7: Copy SSH Key and Wallet",
-            "filename": "../../lab07/lab07.md"
+            "filename": "../../copy-sshkey-wallet/copy-sshkey-wallet.md"
         },
         {
             "title": "Lab 8: Install the Application and Migrate the Database",
-            "filename": "../../lab08/lab08.md"
+            "filename": "../../install-application-migrate-database/install-application-migrate-database.md"
         },
         {
             "title": "Lab 9: Run the Application Workload",
-            "filename": "../../lab09/lab09.md"
+            "filename": "../../load-application-test-performance/load-application-test-performance.md"
         },
         {
             "title": "Lab 10: Managing Storage and Images",
-            "filename": "../../lab10/lab10.md"
+            "filename": "../../managing-storage-volume/managing-storage-volume.md"
         },
 
         {
