@@ -24,24 +24,24 @@ Estimated Time: 1 hour 30 minutes
 
 ## Task 1: Create a Custom Image ##
 
-1. Click on your App Server compute details. Note: you can’t create an image of the Bastion because it is already an Oracle image, ie: the Cloud Developer image.
+1. Click on your App Server compute details. Note: you can’t create an image of the Bastion because it is     already an Oracle image, ie: the Cloud Developer image.
 2. Select the Actions dropdown menu
 3. Select Create Custom Image
 4. Select your compartment
 5. Give your custom image a name
 6. Click Create Custom Image
 
-![](./images/create-image.png)
+  ![](./images/create-image.png)
 
-![](./images/create-image-2.png)
+  ![](./images/create-image-2.png)
 
 When your custom image is created you should see the Work Requests as below. Work Requests are located on the left side Resources menu.
 
-![](./images/work-request-1.png)
+  ![](./images/work-request-1.png)
 
 ​	7. Select Compute then Custom Images menu and you should see your custom image created.
 
-![](./images/work-request.png)
+  ![](./images/work-request.png)
 
 
 You can now use this image to launch another instance by selecting the 3 dots action … menu. You can also export this image to the OCI Object Storage for use by others.
@@ -55,7 +55,7 @@ You can now use this image to launch another instance by selecting the 3 dots ac
 5. Enter your public key
 
 Your new instance will be created in a few minutes with the App Server and Swingbench application already imaged.
-![](./images/create-instance-from-image.png)
+   ![](./images/create-instance-from-image.png)
 
 ​	6. SSH into your new compute with the public IP address and the private key.
 
@@ -102,9 +102,9 @@ Let’s now clone the ATP service and run the workload against it. Cloning allow
 2. Select Create Clone from the Actions menu
 
 3. Create a Full Clone from database instance, which will clone data and metadata
-![](./images/clone-atp-1.png)
+  ![](./images/clone-atp-1.png)
 
-![](./images/clone-atp-2.png)
+  ![](./images/clone-atp-2.png)
 
 
 ​	4. Select database version 19c, 2 cores, 1 TB
@@ -116,7 +116,7 @@ Let’s now clone the ATP service and run the workload against it. Cloning allow
 ​	7. Select BYOL
 
 ​	8. Create Autonomous Database Clone
-![](./images/clone-atp-3.png)
+   ![](./images/clone-atp-3.png)
 
 
 The Clone will be created in 15-20 minutes.  It will have a new Wallet.  Notice the source database is still running.
@@ -169,9 +169,9 @@ Let's now terminate the newly created compute instance from the custom image, bu
 
 1. Select terminate from the compute action menu
 
- 	2. Do not check the box, just click on Terminate Instance
+2. Do not check the box, just click on Terminate Instance
 
-  ![](./images/terminate-instance.png)
+   ![](./images/terminate-instance.png)
 
  3. Once the instance is terminated the boot volume can be found in storage ->block storage-> boot volume and your volume is still available to be attached to any new instance
 
@@ -180,19 +180,20 @@ Let's now terminate the newly created compute instance from the custom image, bu
    ![](./images/boot-volume1.png)
 
 
-    ## Task 5: Export the Custom Image to the Object Storage
+## Task 5: Export the Custom Image to the Object Storage
 
     Now let’s export your custom image to the Oracle Object Store so it can be used by others.
 
-     1. From the Custom Images action menu, select Export
+   1. From the Custom Images action menu, select Export
 
        ![](./images/export-image-to-object-store.png)
 
 
-    3. Select the bucket you want to export the image. If you don’t have a bucket, you can create one in the Object Storage.
+  2. Select the bucket you want to export the image. If you don’t have a bucket, you can create one in the     Object Storage.
 
-    4. Give it a name
-    ![](./images/export-image-to-object-store-2.png)
+    3. Give it a name
+
+      ![](./images/export-image-to-object-store-2.png)
 
 
 
@@ -226,9 +227,9 @@ The following example process describes how to lift a disk image from on prem to
 8. Select the image type
 9. Select the launch mode
 
-![](./images/import-image.png)
+  ![](./images/import-image.png)
 
-![](./images/import-image-2.png)
+  ![](./images/import-image-2.png)
 
 
 
@@ -260,11 +261,11 @@ Let’s add a non bootable block volume.  Block volumes are useful for expanding
 
 8. Create
 
-![](./images/create-block-volume.png)
+  ![](./images/create-block-volume.png)
 
-![](./images/create-block-volume-2.png)
+  ![](./images/create-block-volume-2.png)
 
-![](./images/create-block-volume-3.png)
+  ![](./images/create-block-volume-3.png)
 
 
 You now have a block volume that you can attach to your instance.
@@ -281,12 +282,12 @@ Block volumes can be backed up manually outside of the auto backup policy. Once 
 You can see the status in Block Volume Backups
 
 Once you have created a manual backup, you can  Copy to Another Region.  This is useful if your application is deployed in more than one region.
-![](./images/copy-block-to-region.png)
+   ![](./images/copy-block-to-region.png)
 
-![](./images/copy-block-to-region-2.png)
+   ![](./images/copy-block-to-region-2.png)
 
 
-End of lab.
+congrats you finished the workshop.
 
 ## Acknowledgements ##
 

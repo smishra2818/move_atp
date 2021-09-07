@@ -10,9 +10,10 @@ Estimated Time: 1 hour
 
 ### Objectives
 
-Create Autonomous Database on Oracle Cloud.
+* Create Autonomous Database on Oracle Cloud.
+* Connect Autonomous Database using Sqldevloper through wallet.
 
-## Requirements ##
+### Prerequisites
 
 * Web Browser
 * SQL Developer 19.1 or higher
@@ -80,11 +81,11 @@ Provision the Autonomous Transaction Processing database (ATP) with the steps be
     ![](./images/provision-atp-7.png)
 
 Your console will show that ATP is provisioning. This will take about 2 or 3 minutes to complete.
-![](./images/provision-atp-8.png)
+   ![](./images/provision-atp-8.png)
 
 You can check the status of the provisioning in the Work Request.
 
-![](./images/provision-atp-9.png)
+  ![](./images/provision-atp-9.png)
 
 ## Task 3: Download the Wallet
 
@@ -93,7 +94,7 @@ Once your ATP service is running we can connect a client to ATP securely with th
 ​	1. Click on the details of your ATP.
 
 ​	2. Select DB Connection.
-![](./images/wallet-1.png)
+  ![](./images/wallet-1.png)
 
 
 ​	3. Select Instance Wallet for the Wallet Type.
@@ -102,9 +103,9 @@ Once your ATP service is running we can connect a client to ATP securely with th
 
 ​	5. Enter a password for the wallet.
 
-![](./images/wallet-2.png)
+  ![](./images/wallet-2.png)
 
-![](./images/wallet-3.png)
+  ![](./images/wallet-3.png)
 
 
 ## Task 4: Connect to ATP using SQL Developer
@@ -117,7 +118,7 @@ Please note that most of the database settings and parameters cannot be modified
 
 1. Start SQL Developer from your client.
 2. Click + to create a new connection.
-![](./images/sql-developer.png)
+ ![](./images/sql-developer.png)
 
 ​	3. Enter a connection name.
 
@@ -147,7 +148,7 @@ About connection services:
 
 ​	9. Test the connection and Save your connection for later use. Then click Connect.
 
-**Note:** Ensure that you use **ADMIN** user to view any database configuration.
+"**Note:**" Ensure that you use **ADMIN** user to view any database configuration.
    ![](./images/sql-developer-2.png)
 
 ​	10. From your SQL Developer worksheet run the test query below against a sample database that is already in   ATP.
@@ -174,7 +175,7 @@ AND sales.cust_id=customers.cust_id
  11. Click **F5** or the **Run Script** button. Verify the query executes and results are displayed.  
 
      Run it again.  Why was it faster?
-     ![](./images/sql-developer-3.png)
+      ![](./images/sql-developer-3.png)
 
 
 You have successfully provisioned and connected SQL Developer to Autonomous Database (ATP) and validated the connection.

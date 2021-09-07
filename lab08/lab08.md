@@ -52,7 +52,7 @@ $ <copy>sudo yum install java-1.8.0-openjdk-headless.x86_64</copy>
 
 •      Type **y**
 
-![](./images/java-install.png)
+  ![](./images/java-install.png)
 
 ​	4. Let’s check the version and make sure that java works correctly.
 
@@ -160,7 +160,7 @@ $ <copy>sudo vi sqlnet.ora</copy>
 
 3. Set the WALLET_LOCATION parameter to point to the wallet directory containing the cwallet.sso file as shown by the example below
 
-![](./images/vi-sqlnet.png)
+  ![](./images/vi-sqlnet.png)
 
 4. Exit and save the file                               
 
@@ -225,7 +225,7 @@ END;
 ```
 
 ​	5. Run the script
-![](./images/create-credential-object-store.png)
+  ![](./images/create-credential-object-store.png)
 
 
 

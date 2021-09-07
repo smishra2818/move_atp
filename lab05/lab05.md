@@ -8,7 +8,9 @@ Estimated Time: 40 minutes
 
 ### Objectives
 
-* create the computes.
+* Create Bastion compute instance on cloud.
+* Create Application server.
+* Connect Application server through compute instance.
 
 ## Requirements ##
 
@@ -82,7 +84,7 @@ The Oracle Cloud Developer image has the Linux OS along with software client too
 
 Once you click Create Instance, your instance will be in provisioning state. This will take a couple of minutes to create.
 
-  ![](./images/comput-provisioning-status.png)
+  ![](./images/compute-provisioning-status.png)
 
 You can see the more status by clicking on Work Request.
 
@@ -90,7 +92,7 @@ You can see the more status by clicking on Work Request.
 
 Your running compute instance will have both the Public and Private IP address created. Resources inside the VCN can access Private IP addresses.
 
- ![](./images/comput-detail.png)
+ ![](./images/compute-detail.png)
 
 
 ## Task 2: Connect to your Bastion Compute ##
@@ -99,17 +101,17 @@ Use PuTTy or SSH to connect to your bastion compute. Connect with the compute pu
 
 For Linux SSH:
 
-`ssh –i ~/../privatekey opc@<your compute public IP address>`
+`sh –i ~/../privatekey opc@<your compute public IP address>`
 
 For PuTTY:
 
 ​	1. Enter the public IP address of the compute
 
- ![](./images/putty-1.png)
+  ![](./images/putty-1.png)
 
 ​	2. Browse for your SSH private key
 
- ![](./images/putty-2.png)
+  ![](./images/putty-2.png)
 
 ​	3. Save your settings and click Open
 
