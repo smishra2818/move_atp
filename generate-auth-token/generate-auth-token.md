@@ -23,11 +23,8 @@ The following is intended to outline our general product direction. It is intend
 
 
 1.  View the user's details:
-- If you're creating an auth token for yourself: Open the **Profile** menu
-(![User menu icon](./images/usermenu.png)) and
-click **User Settings**.
-- If you're an administrator creating an auth token for another user: In the Console,
-click **Identity**, and then click **Users**. Locate the user in the list, and then click the user's name to view the details. ![](./images/user-profile-icon.png) ![](./images/user-settings.png)
+    - If you're creating an auth token for yourself: Open the **Profile** menu ( ![User menu icon](./images/usermenu.png) ) and click **User Settings**.
+    - If you're an administrator creating an auth token for another user: In the Console, click **Identity**, and then click **Users**. Locate the user in the list, and then click the user's name to view the details. ![](./images/user-profile-icon.png) ![](./images/user-settings.png)
 
 2.  On the left side of the page, click **Auth Tokens**.
 

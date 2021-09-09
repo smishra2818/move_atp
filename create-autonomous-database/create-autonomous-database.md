@@ -127,16 +127,15 @@ Please note that most of the database settings and parameters cannot be modified
 
 7. Select Connection Type as Cloud Wallet and Browse for your wallet.
 
-8. Browse and select your service. i.e.,: <your ATP name>\_tp.
-Note there are five services, select the **tp**  service.
-About connection services:
-High – for long queries, high parallelism, low SQL concurrency.
+8. Browse and select your service. i.e.,: "< your ATP name >\_tp". Note there are five services, select the **tp**  service.
 
+    About connection services:
 
-    Medium – for medium queries, parallelism, medium concurrency.
-    Low – for short queries, no parallelism, high concurrency.
-    TPurgent – for high priority transaction processing.
-    TP – for standard transaction processing.
+    - High – for long queries, high parallelism, low SQL concurrency.
+    - Medium – for medium queries, parallelism, medium concurrency.
+    - Low – for short queries, no parallelism, high concurrency.
+    - TPurgent – for high priority transaction processing.
+    - TP – for standard transaction processing.
 
 9.  Test the connection and Save your connection for later use. Then click Connect.
 
